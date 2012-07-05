@@ -21,9 +21,14 @@ namespace PacoChip_8
             this.Dispose();
         }
 
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://code.google.com/p/pacochip-8/");
+        }
+
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("mailto:maikelchan88@gmail.com?subject=PacoChip 8");
+            System.Diagnostics.Process.Start("http://pacochan.tales-tra.com");
         }
     }
 }
